@@ -1,0 +1,61 @@
+name: update-femicide
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 0 * * *'  # every day at 00:00
+
+jobs:
+  update-femicide:
+    name: Update femicide data set
+    runs-on: ubuntu-latest
+
+    env:
+      TWITTER_CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+      TWITTER_CONSUMER_API_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      
+      RENV_PATHS_ROOT: ~/.local/share/renv
+
+    steps:
+    
+      - uses: actions/checkout@v2
+      
+      - uses: r-lib/actions/setup-r@master
+      
+      - name: Install dependencies
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+          
+      - name: Cache packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      - name: Restore packages
+        shell: Rscript {0}
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+
+
+      - name: Fetch new tweets
+        run: |
+          source("R/update.R")
+        shell: Rscript {0} 
+        
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "update data (`date +'%Y-%m-%d`)"
+
+      - name: Session info
+        run: |
+          options(width = 100)
+          pkgs <- installed.packages()[, "Package"]
+          sessioninfo::session_info(pkgs, include_base = TRUE)
+        shell: Rscript {0}
