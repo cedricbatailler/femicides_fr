@@ -11,12 +11,12 @@
 A data set of femicides in France as reported by
 [@feminicidesfr](https://twitter.com/feminicidesfr/).
 
-<div id="zewcncynxn" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vigrbsnaow" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zewcncynxn .gt_table {
+#vigrbsnaow .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -41,7 +41,7 @@ A data set of femicides in France as reported by
   border-left-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_heading {
+#vigrbsnaow .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -53,7 +53,7 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_title {
+#vigrbsnaow .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -63,7 +63,7 @@ A data set of femicides in France as reported by
   border-bottom-width: 0;
 }
 
-#zewcncynxn .gt_subtitle {
+#vigrbsnaow .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -73,13 +73,13 @@ A data set of femicides in France as reported by
   border-top-width: 0;
 }
 
-#zewcncynxn .gt_bottom_border {
+#vigrbsnaow .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_col_headings {
+#vigrbsnaow .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -94,7 +94,7 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_col_heading {
+#vigrbsnaow .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -114,7 +114,7 @@ A data set of femicides in France as reported by
   overflow-x: hidden;
 }
 
-#zewcncynxn .gt_column_spanner_outer {
+#vigrbsnaow .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -126,15 +126,15 @@ A data set of femicides in France as reported by
   padding-right: 4px;
 }
 
-#zewcncynxn .gt_column_spanner_outer:first-child {
+#vigrbsnaow .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zewcncynxn .gt_column_spanner_outer:last-child {
+#vigrbsnaow .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zewcncynxn .gt_column_spanner {
+#vigrbsnaow .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -146,7 +146,7 @@ A data set of femicides in France as reported by
   width: 100%;
 }
 
-#zewcncynxn .gt_group_heading {
+#vigrbsnaow .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -168,7 +168,7 @@ A data set of femicides in France as reported by
   vertical-align: middle;
 }
 
-#zewcncynxn .gt_empty_group_heading {
+#vigrbsnaow .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -183,15 +183,15 @@ A data set of femicides in France as reported by
   vertical-align: middle;
 }
 
-#zewcncynxn .gt_from_md > :first-child {
+#vigrbsnaow .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zewcncynxn .gt_from_md > :last-child {
+#vigrbsnaow .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zewcncynxn .gt_row {
+#vigrbsnaow .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -210,7 +210,7 @@ A data set of femicides in France as reported by
   overflow-x: hidden;
 }
 
-#zewcncynxn .gt_stub {
+#vigrbsnaow .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -222,7 +222,7 @@ A data set of femicides in France as reported by
   padding-left: 12px;
 }
 
-#zewcncynxn .gt_summary_row {
+#vigrbsnaow .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -232,7 +232,7 @@ A data set of femicides in France as reported by
   padding-right: 5px;
 }
 
-#zewcncynxn .gt_first_summary_row {
+#vigrbsnaow .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -242,7 +242,7 @@ A data set of femicides in France as reported by
   border-top-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_grand_summary_row {
+#vigrbsnaow .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -252,7 +252,7 @@ A data set of femicides in France as reported by
   padding-right: 5px;
 }
 
-#zewcncynxn .gt_first_grand_summary_row {
+#vigrbsnaow .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -262,11 +262,11 @@ A data set of femicides in France as reported by
   border-top-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_striped {
+#vigrbsnaow .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zewcncynxn .gt_table_body {
+#vigrbsnaow .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -275,7 +275,7 @@ A data set of femicides in France as reported by
   border-bottom-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_footnotes {
+#vigrbsnaow .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -289,13 +289,13 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_footnote {
+#vigrbsnaow .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#zewcncynxn .gt_sourcenotes {
+#vigrbsnaow .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -309,41 +309,41 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#zewcncynxn .gt_sourcenote {
+#vigrbsnaow .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#zewcncynxn .gt_left {
+#vigrbsnaow .gt_left {
   text-align: left;
 }
 
-#zewcncynxn .gt_center {
+#vigrbsnaow .gt_center {
   text-align: center;
 }
 
-#zewcncynxn .gt_right {
+#vigrbsnaow .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zewcncynxn .gt_font_normal {
+#vigrbsnaow .gt_font_normal {
   font-weight: normal;
 }
 
-#zewcncynxn .gt_font_bold {
+#vigrbsnaow .gt_font_bold {
   font-weight: bold;
 }
 
-#zewcncynxn .gt_font_italic {
+#vigrbsnaow .gt_font_italic {
   font-style: italic;
 }
 
-#zewcncynxn .gt_super {
+#vigrbsnaow .gt_super {
   font-size: 65%;
 }
 
-#zewcncynxn .gt_footnote_marks {
+#vigrbsnaow .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -406,7 +406,11 @@ A data set of femicides in France as reported by
 <td class="gt_row gt_right">2021</td>
 <td class="gt_row gt_right">45</td></tr>
   </tbody>
-  
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="7">Twitter: @feminicidesfr</td>
+    </tr>
+  </tfoot>
   
 </table>
 </div>

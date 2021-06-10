@@ -31,7 +31,9 @@ readr::read_csv("data/femicide.csv",
   mutate(tweet_text = str_trunc(tweet_text, width = 100),
          tweet_urls = str_trunc(tweet_urls, 20)) %>% 
   head() %>% 
-  gt()
+  gt() %>% 
+  tab_source_note("Twitter: @feminicidesfr") 
+
 ```
 
 ## Similar projects
