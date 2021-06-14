@@ -20,9 +20,8 @@ library(dplyr)
 # femicides_fr
 
 <!-- badges: start -->
-![last-update](https://img.shields.io/badge/`r glue::glue("last update-{date}-brightgreen", date = lubridate::today() %>% stringr::str_replace_all("-", "--"))`)
+![last-update](https://img.shields.io/static/v1?label=last update&message=`r lubridate::today()`&color=2aac48&labelColor=252a2f)
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
-
 
 ```{r}
 
