@@ -29,16 +29,16 @@ tweets <-
 femicide_timeline <-
   tweets %>% 
   dplyr::filter(stringr::str_detect(text,  "^\\[\\d+")) %>% 
-  dplyr::mutate(tweet_id   = status_id,
-         tweet_datetime = created_at,
-         tweet_text = text,
-         tweet_urls = urls_expanded_url,
-         tweet_text_markup     = stringr::str_extract(text, "(?<=^\\[).*(?=\\])"), 
-         year                  = stringr::str_extract(tweet_text_markup, "\\d{4}"),
-         femicide              = stringr::str_extract(tweet_text_markup, "^\\d+"),
-         .keep = "none") %>% 
-  dplyr::mutate(across(c(year, femicide, tweet_id),
-                ~ as.numeric(.))) %>% 
+  dplyr::mutate(tweet_id              = status_id,
+                tweet_datetime        = created_at,
+                tweet_text            = text,
+                tweet_urls            = urls_expanded_url,
+                tweet_text_markup     = stringr::str_extract(text, "(?<=^\\[).*(?=\\])"), 
+                year                  = stringr::str_extract(tweet_text_markup, "\\d{4}"),
+                femicide              = stringr::str_extract(tweet_text_markup, "^\\d+"),
+                .keep = "none") %>% 
+  dplyr::mutate(across(c(year, femicide),
+                       ~ as.numeric(.))) %>% 
   dplyr::mutate(year = ifelse(is.na(year), lubridate::year(tweet_datetime), year)) %>% 
   dplyr::rowwise() %>% 
   dplyr::mutate(tweet_urls = glue::glue_collapse(tweet_urls, sep = " ")) %>% 

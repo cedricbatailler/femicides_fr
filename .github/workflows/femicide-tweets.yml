@@ -24,6 +24,8 @@ jobs:
       
       - uses: r-lib/actions/setup-r@master
       
+      - uses: r-lib/actions/setup-pandoc@v1
+
       - name: Install dependencies
         run: |
           sudo apt-get install libcurl4-openssl-dev
@@ -48,6 +50,9 @@ jobs:
           source("R/update.R")
         shell: Rscript {0} 
         
+      - name: Render Rmarkdown files
+        run: Rscript -e 'rmarkdown::render("README.Rmd")'
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
