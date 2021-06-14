@@ -25,13 +25,19 @@ library(dplyr)
 
 A data set of femicides in France as reported by [\@feminicidesfr](https://twitter.com/feminicidesfr/).
 
+### Last tweets
+
 ```{r echo=FALSE, message=FALSE}
 readr::read_csv("data/femicide.csv",
                 col_types = "c??????") %>% 
-  mutate(tweet_text = str_trunc(tweet_text, width = 100),
+  mutate(tweet_id = glue::glue("[{str_trunc(tweet_id, width = 10)}](https://twitter.com/feminicidesfr/status/{tweet_id})"),
+         tweet_text = str_trunc(tweet_text, width = 30),
          tweet_urls = str_trunc(tweet_urls, 20)) %>% 
-  head() %>% 
+  arrange(desc(tweet_datetime)) %>%  
+  select(tweet_id, tweet_datetime, tweet_text, year, femicide) %>% 
+  head(5) %>% 
   gt() %>% 
+  fmt_markdown(tweet_id) %>% 
   tab_source_note("Twitter: @feminicidesfr") 
 
 ```
