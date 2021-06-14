@@ -38,8 +38,8 @@ readr::read_csv("data/femicide.csv",
   head(5) %>% 
   gt() %>% 
   fmt_markdown(tweet_id) %>% 
-  tab_source_note("Twitter: @feminicidesfr") %>% 
-  as_raw_html()
+  tab_source_note("Source @feminicidesfr") %>% 
+  as_raw_html(inline_css = TRUE)
 
 ```
 

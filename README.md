@@ -58,7 +58,7 @@ A data set of femicides in France as reported by
   </tbody>
   <tfoot style="color: #333333; background-color: #FFFFFF; border-bottom-style: none; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3;">
     <tr>
-      <td style="font-size: 90%; padding: 4px;" colspan="5">Twitter: @feminicidesfr</td>
+      <td style="font-size: 90%; padding: 4px;" colspan="5">Source @feminicidesfr</td>
     </tr>
   </tfoot>
   
