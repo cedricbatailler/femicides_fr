@@ -13,12 +13,12 @@ A data set of femicides in France as reported by
 
 ### Last tweets
 
-<div id="ejygjuvetk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="faskwhaozx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ejygjuvetk .gt_table {
+#faskwhaozx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -43,7 +43,7 @@ A data set of femicides in France as reported by
   border-left-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_heading {
+#faskwhaozx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -55,7 +55,7 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_title {
+#faskwhaozx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -65,7 +65,7 @@ A data set of femicides in France as reported by
   border-bottom-width: 0;
 }
 
-#ejygjuvetk .gt_subtitle {
+#faskwhaozx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -75,13 +75,13 @@ A data set of femicides in France as reported by
   border-top-width: 0;
 }
 
-#ejygjuvetk .gt_bottom_border {
+#faskwhaozx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_col_headings {
+#faskwhaozx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -96,7 +96,7 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_col_heading {
+#faskwhaozx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -116,7 +116,7 @@ A data set of femicides in France as reported by
   overflow-x: hidden;
 }
 
-#ejygjuvetk .gt_column_spanner_outer {
+#faskwhaozx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -128,15 +128,15 @@ A data set of femicides in France as reported by
   padding-right: 4px;
 }
 
-#ejygjuvetk .gt_column_spanner_outer:first-child {
+#faskwhaozx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ejygjuvetk .gt_column_spanner_outer:last-child {
+#faskwhaozx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ejygjuvetk .gt_column_spanner {
+#faskwhaozx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -148,7 +148,7 @@ A data set of femicides in France as reported by
   width: 100%;
 }
 
-#ejygjuvetk .gt_group_heading {
+#faskwhaozx .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -170,7 +170,7 @@ A data set of femicides in France as reported by
   vertical-align: middle;
 }
 
-#ejygjuvetk .gt_empty_group_heading {
+#faskwhaozx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -185,15 +185,15 @@ A data set of femicides in France as reported by
   vertical-align: middle;
 }
 
-#ejygjuvetk .gt_from_md > :first-child {
+#faskwhaozx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ejygjuvetk .gt_from_md > :last-child {
+#faskwhaozx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ejygjuvetk .gt_row {
+#faskwhaozx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -212,7 +212,7 @@ A data set of femicides in France as reported by
   overflow-x: hidden;
 }
 
-#ejygjuvetk .gt_stub {
+#faskwhaozx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -224,7 +224,7 @@ A data set of femicides in France as reported by
   padding-left: 12px;
 }
 
-#ejygjuvetk .gt_summary_row {
+#faskwhaozx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -234,7 +234,7 @@ A data set of femicides in France as reported by
   padding-right: 5px;
 }
 
-#ejygjuvetk .gt_first_summary_row {
+#faskwhaozx .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -244,7 +244,7 @@ A data set of femicides in France as reported by
   border-top-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_grand_summary_row {
+#faskwhaozx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -254,7 +254,7 @@ A data set of femicides in France as reported by
   padding-right: 5px;
 }
 
-#ejygjuvetk .gt_first_grand_summary_row {
+#faskwhaozx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -264,11 +264,11 @@ A data set of femicides in France as reported by
   border-top-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_striped {
+#faskwhaozx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ejygjuvetk .gt_table_body {
+#faskwhaozx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -277,7 +277,7 @@ A data set of femicides in France as reported by
   border-bottom-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_footnotes {
+#faskwhaozx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -291,13 +291,13 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_footnote {
+#faskwhaozx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ejygjuvetk .gt_sourcenotes {
+#faskwhaozx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -311,41 +311,41 @@ A data set of femicides in France as reported by
   border-right-color: #D3D3D3;
 }
 
-#ejygjuvetk .gt_sourcenote {
+#faskwhaozx .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ejygjuvetk .gt_left {
+#faskwhaozx .gt_left {
   text-align: left;
 }
 
-#ejygjuvetk .gt_center {
+#faskwhaozx .gt_center {
   text-align: center;
 }
 
-#ejygjuvetk .gt_right {
+#faskwhaozx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ejygjuvetk .gt_font_normal {
+#faskwhaozx .gt_font_normal {
   font-weight: normal;
 }
 
-#ejygjuvetk .gt_font_bold {
+#faskwhaozx .gt_font_bold {
   font-weight: bold;
 }
 
-#ejygjuvetk .gt_font_italic {
+#faskwhaozx .gt_font_italic {
   font-style: italic;
 }
 
-#ejygjuvetk .gt_super {
+#faskwhaozx .gt_super {
   font-size: 65%;
 }
 
-#ejygjuvetk .gt_footnote_marks {
+#faskwhaozx .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
