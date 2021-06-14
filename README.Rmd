@@ -21,6 +21,13 @@ library(dplyr)
 
 <!-- badges: start -->
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
+![last-update](https://img.shields.io/badge/`r glue::glue("last update-{date}-brightgreen", date = lubridate::today() %>% stringr::str_replace_all("-", "--"))`)
+
+
+```{r}
+
+```
+
 <!-- badges: end -->
 
 A data set of femicides in France as reported by [\@feminicidesfr](https://twitter.com/feminicidesfr/).
