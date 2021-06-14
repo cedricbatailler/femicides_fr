@@ -5,8 +5,8 @@
 
 <!-- badges: start -->
 
-![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
 ![last-update](https://img.shields.io/badge/last%20update-2021--06--14-brightgreen)
+![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
 
 <!-- badges: end -->
 
