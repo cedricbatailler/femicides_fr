@@ -7,11 +7,35 @@
 
 ![last-update](https://img.shields.io/static/v1?label=last%20update&message=2021-06-14&color=2aac48&labelColor=252a2f)
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
-
 <!-- badges: end -->
 
 A data set of femicides in France as reported by
 [@feminicidesfr](https://twitter.com/feminicidesfr/).
+
+### How does it work?
+
+[@feminicidesfr](https://twitter.com/feminicidesfr/) is a Twitter
+account conducting a census of the femicides reported in the press, in
+France. The account is managed by a feminist group composed of
+volunteers.
+
+Every day, at midnight, [a `R`
+script](https://github.com/cedricbatailler/femicides_fr/blob/main/R/update.R)
+looks for the most recent tweets from
+[@feminicidesfr](https://twitter.com/feminicidesfr/) which my contains
+new femicide reports. If found, the new reports are added to the [data
+set](https://github.com/cedricbatailler/femicides_fr/blob/main/data/femicide.csv).
+
+### Quickstart
+
+If you want to open the data set in a Google Sheet document, just open
+[a new Google Sheet document](https://sheets.new) and paste the
+following in the first cell.
+
+`=importData("https://github.com/cedricbatailler/femicides_fr/raw/main/data/femicide.csv")`
+
+Or, you can manually download the data set
+[here](https://github.com/cedricbatailler/femicides_fr/blob/main/data/femicide.csv).
 
 ### Last tweets
 
