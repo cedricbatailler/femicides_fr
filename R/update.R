@@ -45,7 +45,7 @@ femicide_timeline <-
   dplyr::ungroup()
 
 # update csv data set ---------------------------------------------------------
-readr::read_csv("data/femicide.csv") %>% 
+readr::read_csv("data/femicide.csv", col_types = "c??????") %>% 
   dplyr::bind_rows(femicide_timeline) %>% 
   dplyr::distinct() %>% 
   readr::write_csv("data/femicide.csv")
