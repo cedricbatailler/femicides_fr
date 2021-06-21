@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# femicides\_fr
+# femicides_fr
 
 <!-- badges: start -->
 
@@ -92,7 +92,7 @@ Or, you can manually download the data set
 
 ## Similar projects
 
-  - [2021 - Féminicides par Compagnons ou Ex - Google My
+-   [2021 - Féminicides par Compagnons ou Ex - Google My
     Maps](https://www.google.com/maps/d/viewer?mid=1AoTHJTAvWz-P1ddCKe1NhWtdsOQgcLPA):
     An interactive map of femicide maintained by
     [@feminicidesfr](https://twitter.com/feminicidesfr/).
