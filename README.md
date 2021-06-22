@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# femicides_fr
+# femicides\_fr
 
 <!-- badges: start -->
 
-![last-update](https://img.shields.io/static/v1?label=last%20update&message=2021-06-21&color=2aac48&labelColor=252a2f)
+![last-update](https://img.shields.io/static/v1?label=last%20update&message=2021-06-22&color=2aac48&labelColor=252a2f)
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
 <!-- badges: end -->
 
@@ -92,7 +92,7 @@ Or, you can manually download the data set
 
 ## Similar projects
 
--   [2021 - Féminicides par Compagnons ou Ex - Google My
+  - [2021 - Féminicides par Compagnons ou Ex - Google My
     Maps](https://www.google.com/maps/d/viewer?mid=1AoTHJTAvWz-P1ddCKe1NhWtdsOQgcLPA):
     An interactive map of femicide maintained by
     [@feminicidesfr](https://twitter.com/feminicidesfr/).
