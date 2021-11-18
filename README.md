@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![last-update](https://img.shields.io/static/v1?label=last%20update&message=2021-11-17&color=2aac48&labelColor=252a2f)
+![last-update](https://img.shields.io/static/v1?label=last%20update&message=2021-11-18&color=2aac48&labelColor=252a2f)
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
 <!-- badges: end -->
 
