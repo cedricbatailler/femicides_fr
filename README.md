@@ -5,12 +5,25 @@
 
 <!-- badges: start -->
 
-![last-update](https://img.shields.io/static/v1?label=last%20update&message=2023-04-21&color=2aac48&labelColor=252a2f)
+![last-update](https://img.shields.io/static/v1?label=last%20update&message=2023-05-18&color=2aac48&labelColor=252a2f)
 ![workflow-update](https://github.com/cedricbatailler/femicides_fr/actions/workflows/femicide-tweets.yml/badge.svg)
 <!-- badges: end -->
 
 A data set of femicides in France as reported by
 [@feminicidesfr](https://twitter.com/feminicidesfr/).
+
+### Repo status
+
+This repository used to retrieve new cases every night through the
+Twitter API. However, due to [recent
+changes](https://www.theverge.com/2023/2/2/23582615/twitter-removing-free-api-developer-apps-price-announcement),
+it is no longer possible to continue this practice. As a result, the
+repository is now inactive.
+
+Although this data set will no longer be maintained, there is a
+significant likelihood that the number of feminicides will continue to
+increase. Maybe you could consider donating to local organizations that
+support women?
 
 ### How does it work?
 
